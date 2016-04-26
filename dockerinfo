@@ -1,3 +1,6 @@
 boot2docker ssh 
 user: docker
 pass: tcuser
+
+Package manager
+tce-load
