@@ -1,0 +1,3 @@
+boot2docker ssh 
+user: docker
+pass: tcuser
