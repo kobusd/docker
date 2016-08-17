@@ -4,3 +4,7 @@ pass: tcuser
 
 Package manager
 tce-load
+
+#create docker image to use in Azure --not working via the proxy
+docker-machine create -d azure --azure-subscription-id {subscriptionid} --azure-open-port 80 --azure-resource-group dockerHost dockerVM
+
